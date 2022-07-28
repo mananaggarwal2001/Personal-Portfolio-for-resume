@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbarcontainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* navbar Secition Design */
+.navbar {
+    width: 15vw;
+    height: 100vh;
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+
+.profilenameimage {
+    display: flex;
+    margin: 1.3em;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: auto;
+    margin-top: 2.3em;
+
+}
+
+.profilenameimage img {
+    width: 9em;
+    height: 9em;
+    border-radius: 100%;
+    border: 10px solid rgb(78, 78, 78);
+    outline: none;
+}
+
+.profilenameimage h1 {
+    display: block;
+    margin: 0px auto;
+    margin-top: 12px;
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.container {
+    width: 15vw;
+    margin-top: 150.4px;
+}
+
+#navbarList {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+
+}
+
+#navbarList a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#navbarList li {
+    margin-top: 30px;
+}
+
+#navbarList li a:hover {
+    color: greenyellow;
+}
+
+.icons {
+    position: absolute;
+    bottom: 1em;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.icons .fa-brands {
+    margin: 0px 1em;
+    color: rgb(173, 173, 173);
+}
+
+.fa-github:hover {
+    opacity: 0.5;
+}
+
+.fa-instagram:hover {
+    opacity: 0.5;
+}
+
+.fa-twitter:hover {
+    color: aqua;
+}
+
+.fa-facebook-f:hover {
+    color: blue;
+}
+
+/* Coverpage Css designing */
+.coverpage {
+    position: relative;
+    display: flex;
+    color:white;
+}
+
+.coverpage::before {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 85vw;
+    background: url('../Images/coder.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.welcomeheading {
+    color: white;
+}
+
+.headingdetails{
+    height: 100vh;
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Coverheading Design */
+
+.welcomeheading{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+
+.descriptionclass{
+    margin: 0.1em 0px;
+    font-size: 4.5em;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-weight: bolder;
+}
+.wordchangingclass{
+    color:greenyellow;
+}
+
+.addressclass{
+    margin: 0.5em;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
