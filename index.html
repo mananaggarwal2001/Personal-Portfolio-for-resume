@@ -15,6 +15,7 @@
 
 <body>
     <section class="navbarcontainer">
+        <!-- Navbar Section -->
         <nav class="navbar">
             <div class="maincontainer">
                 <div class="profilenameimage">
@@ -23,8 +24,8 @@
                 </div>
                 <div class="container">
                     <ul class="headingList" id="navbarList">
-                        <li class="listItem"><a href="#">Home</a></li>
-                        <li class="listItem"><a href="#">About Me</a></li>
+                        <li class="listItem"><a href="#home">Home</a></li>
+                        <li class="listItem"><a href="#about">About Me</a></li>
                         <li class="listItem"><a href="#">Resume</a></li>
                         <li class="listItem"><a href="#">Portfolio</a></li>
                         <li class="listItem"><a href="#">Contact</a></li>
@@ -38,11 +39,53 @@
                 <a href=""><i class="fa-brands fa-facebook-f" title="Facebook"></i></i></a>
             </div>
         </nav>
-        <div class="coverpage">
-            <div class="headingdetails">
-                <h3 class="welcomeheading"> Welcome to my Portfolio </h3>
-                <h1 class="descriptionclass">I'm <span class="wordchangingclass"></span></h1>
-                <h3 class="addressclass">Lives in Palm Olympia Gaur City Greater Noida</h3>
+        <!-- Main Class -->
+        <div class="main">
+            <div class="coverpage" id="home">
+                <div class="headingdetails">
+                    <h3 class="welcomeheading"> Welcome to my Portfolio </h3>
+                    <h1 class="descriptionclass">I'm <span class="wordchangingclass"></span></h1>
+                    <h3 class="addressclass">Lives in Palm Olympia Gaur City Greater Noida</h3>
+                </div>
+            </div>
+            <div class="aboutsection" id="About">
+                <div class="headingcontainer">
+                    <h1 class="aboutheading">Know More About Me</h1>
+                    <hr width="50%" class="headingdecorationclass">
+                </div>
+                <div class="aboutcontainer">
+                    <div class="informationclass">
+                        <h2 class="information">I'm <span class="mananclass">Manan Aggarwal,</span> a writer, a coder
+                        </h2>
+                        <p class="informationParagraph firstparagraph">I am Manan Aggarwal Student of JIIMS Technical
+                            Campus. I am a tech enthuiastic. Havning interest in coding and want to explore more in
+                            computer technologies and make this world a better place to live. I love to create new
+                            things and love to make the complex things easy to explain.</p>
+                        <p class="informationParagraph"> I have certain about of Hobbies like cricket,watching Movies,
+                            playing video games, blogging etc. </p>
+                    </div>
+                    <div class="detailsclass">
+                        <table class="tableclass">
+                            <tr>
+                                <td class="tabledata">Name:</td>
+                                <td>Manan Aggarwal</td>
+                            </tr>
+                            <tr>
+                                <td class="tabledata">Age:</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td class="tabledata">Email:</td>
+                                <td> <a href="mailto:mananaggarwal2001@gmail.com" class="emailclass">mananaggarwal2001@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <td class="tabledata">From:</td>
+                                <td> Noida ,Uttar Pradesh</td>
+                            </tr>
+                        </table>
+                            <a class="linkclass" href="resume.pdf"  download><button class="btn">Download CV</button></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
