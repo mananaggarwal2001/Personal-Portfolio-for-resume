@@ -363,3 +363,12 @@
     font-weight: 900;
     color:white;
 }
+.skillsectioncontainer{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+}
+
+.skillcontainer{
+    display:flex;
+}
