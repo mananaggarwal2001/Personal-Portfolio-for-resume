@@ -126,6 +126,8 @@
     position: relative;
     display: flex;
     color:white;
+    box-sizing: border-box;
+
 }
 
 .coverpage::before {
@@ -137,6 +139,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
     z-index: -1;
 }
 
@@ -312,4 +315,10 @@
     background-color: rgb(126, 206, 7);
     color: rgb(122, 190, 18);
     border-width: 0px;
+}
+
+/* Resume section decoration */
+.resumecontainer{
+    width: 100%;
+    height: 40000px;
 }
