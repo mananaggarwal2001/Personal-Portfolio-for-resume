@@ -399,10 +399,12 @@
 }
 
 /* Progress Bar for the Showing the skills */
-.firsthalfskillcontainer,.secondhalfskillcontainer{
+.firsthalfskillcontainer,
+.secondhalfskillcontainer {
     flex-direction: column;
 }
-#myProgress{
+
+#myProgress {
     width: 36vw;
     background-color: #c6c7c7;
     height: 12px;
@@ -410,42 +412,46 @@
 
 }
 
-#myBar{
+#myBar {
     height: 100%;
     background: rgb(115, 189, 115);
     border-radius: 40px;
 }
 
 
-.fortypercent{
+.fortypercent {
     width: 40%;
 }
-.thirtypercent{
+
+.thirtypercent {
     width: 30%;
 }
 
-.hunderedpercent{
+.hunderedpercent {
     width: 100%;
 }
 
-.sixtypercent{
+.sixtypercent {
     width: 60%;
 }
 
-.fiftypercent{
+.fiftypercent {
     width: 50%;
 }
-.seventyfivepercent{
+
+.seventyfivepercent {
     width: 75%;
 }
-.progressclass{
+
+.progressclass {
     margin: 1.2em 2.20em;
 }
-.eightypercent{
+
+.eightypercent {
     width: 80%;
 }
 
-.progresspercentage{
+.progresspercentage {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -455,7 +461,8 @@
     font-weight: bolder;
 
 }
-.resumebutton{
+
+.resumebutton {
     display: flex;
     margin: 0px auto;
     justify-content: center;
@@ -465,16 +472,19 @@
     width: 14em;
 }
 
-.resumebutton:hover{
+.resumebutton:hover {
     background-color: white;
-    color:grey;
+    color: grey;
+    border-color:grey;
 }
-.downloadiconclass{
+
+.downloadiconclass {
     margin: 0px;
     margin-left: 0.5em;
     text-decoration: none;
 }
-.linkclass{
+
+.linkclass {
     text-decoration: none;
     width: 14em;
 }
@@ -483,7 +493,8 @@
 
 /* Project section decoration */
 
-.firstprojectsection,.secondprojectsection{
+.firstprojectsection,
+.secondprojectsection {
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -497,12 +508,14 @@
     display: block;
     top: 1px;
 }
-.projectcontainer{
+
+.projectcontainer {
     display: flex;
     width: 80vw;
     padding: 0px 3em;
 }
-.projectaboutsection{
+
+.projectaboutsection {
     margin: 0px auto;
     margin-top: 2.8vh;
     display: flex;
@@ -512,100 +525,109 @@
 
 }
 
-.linksection{
+.linksection {
     display: flex;
     justify-content: right;
 
 }
 
-.linkitem{
-    margin:0px 0.5em;
+.linkitem {
+    margin: 0px 0.5em;
     text-decoration: none;
-    color:black;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
-.linkitem:hover{
+
+.linkitem:hover {
     opacity: 0.3;
     text-decoration: underline;
 }
 
 /* Decorating the contact me section */
-.contactmesection{
+.contactmesection {
     height: 100vh;
     width: 85vw;
-    display:flex;
+    display: flex;
     flex-direction: column;
 
 }
 
-.addresssection{
+.addresssection {
     width: 20vw;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.formsection{
+.formsection {
     width: 60vw;
 }
 
-.contactmedivclass{
+.contactmedivclass {
     margin-top: 1vh;
 }
 
-.addressasndformsection{
+.addressasndformsection {
     display: flex;
     width: 80vw;
 }
 
-.contactmeheadingclass{
+.contactmeheadingclass {
     margin-top: 4vh;
 }
 
-.addressheading{
+.addressheading {
     margin-bottom: 1em;
 }
-.addressdetaileditclass{
+
+.addressdetaileditclass {
     margin: 0px 2.2em;
 }
-.addressitem{
+
+.addressitem {
     line-height: 1.8em;
     margin-bottom: 1.5em;
     font-size: 1.1em;
     font-family: 'Roboto', sans-serif;
 }
-.addressiconclass{
+
+.addressiconclass {
     margin-right: 0.6em;
-    color:lightgreen;
+    color: lightgreen;
 }
-.personaldetailitem{
+
+.personaldetailitem {
     margin-bottom: 1.4em;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
-.socialmediaconnecticonclass{
+.socialmediaconnecticonclass {
     display: flex;
     margin: 0px 2.2em;
 }
 
-.socialmediaconnecticonitem{
+.socialmediaconnecticonitem {
     margin-right: 1.5em;
     padding-right: 0.5em;
 }
 
-.formclass{
+.formclass {
     margin: 0px 5em;
     display: flex;
     flex-direction: column;
 }
-.inputclass{
+
+.inputclass {
     margin: 1.5rem 0px;
     display: flex;
     justify-content: center;
 }
-#name,#email,#phone{
+
+#name,
+#email,
+#phone {
     width: 15.5vw;
     margin-right: 2em;
     height: 5vh;
@@ -614,7 +636,7 @@
     font-size: 1em;
 }
 
-#concern{
+#concern {
     font-family: 'Montserrat', sans-serif;
     padding: 0px 1em;
     resize: none;
@@ -622,26 +644,30 @@
     font-size: 1em;
 
 }
-.formsubmitbutton{
+
+.formsubmitbutton {
     margin-top: 2rem;
     height: auto;
     background-color: white;
-    color:green;
-    border:2px solid green;
+    color: green;
+    border: 2px solid green;
 }
-.formsubmitbutton:hover{
+
+.formsubmitbutton:hover {
 
 
     background-color: green;
-    color:white;
-    border:2px solid white;
+    color: white;
+    border-color: white;
 
 }
-.contactmeform{
-    display:flex;
+
+.contactmeform {
+    display: flex;
     flex-direction: column;
 }
-.formheadingclass{
+
+.formheadingclass {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 1.6em;
