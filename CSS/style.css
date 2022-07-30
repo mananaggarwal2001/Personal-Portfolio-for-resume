@@ -397,3 +397,84 @@
 .skillcontainer {
     display: flex;
 }
+
+/* Progress Bar for the Showing the skills */
+.firsthalfskillcontainer,.secondhalfskillcontainer{
+    flex-direction: column;
+}
+#myProgress{
+    width: 36vw;
+    background-color: #c6c7c7;
+    height: 12px;
+    border-radius: 40px;
+
+}
+
+#myBar{
+    height: 100%;
+    background: rgb(115, 189, 115);
+    border-radius: 40px;
+}
+
+
+.fortypercent{
+    width: 40%;
+}
+.thirtypercent{
+    width: 30%;
+}
+
+.hunderedpercent{
+    width: 100%;
+}
+
+.sixtypercent{
+    width: 60%;
+}
+
+.fiftypercent{
+    width: 50%;
+}
+.seventyfivepercent{
+    width: 75%;
+}
+.progressclass{
+    margin: 1.2em 2.20em;
+}
+.eightypercent{
+    width: 80%;
+}
+
+.progresspercentage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.6em 0px;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+.resumebutton{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    background-color: grey;
+    text-decoration: none;
+    margin-top: 1.5em;
+    width: 14em;
+}
+
+.resumebutton:hover{
+    background-color: white;
+    color:grey;
+}
+.downloadiconclass{
+    margin: 0px;
+    margin-left: 0.5em;
+    text-decoration: none;
+}
+.linkclass{
+    text-decoration: none;
+    width: 14em;
+}
