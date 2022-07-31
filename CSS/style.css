@@ -732,3 +732,16 @@
     color:white;
     filter: invert();
 }
+
+
+.animationclass{
+    transition: all 5s ease-in;
+}
+
+.animaitionoutclass{
+    transition: all 5s ease-out;
+}
+
+.opacityclass{
+    opacity: 0;
+}

@@ -6,20 +6,25 @@ let typed = new Typed('.wordchangingclass', {
     loop: true,
     loopCount: Infinity
 });
-let coverarrowdiv = document.getElementsByClassName(".coverarrowclass");
-let imageclass = document.getElementsByClassName(".coverarrowimageclass");
-function slideUp() {
-    imageclass.style.transition = "all 2s ease-in-out";
-    imageclass.style.height = "0px";
-}
+let coverarrowdiv = document.querySelector(".coverarrowclass");
+let imageclass = document.querySelector(".coverarrowimageclass");
 
-function slideDown() {
-    imageclass.style.transition = "all 2s ease-in-out";
-    imageclass.style.height = "100px";
-}
+let disablingarrowelement = document.querySelector("#arrowid");
+const home = document.getElementById('home');
 
-setInterval(() => {
 
-    slideUp;
-    slideDown;
-}, 2000);
+
+
+$('document').ready(() => {
+    function fadeintervalfunction(){
+        // $('.coverarrowimageclass').fadeOut();
+        // $('.coverarrowimageclass').fadeIn();
+         $('.coverarrowimageclass').slideUp();
+         $('.coverarrowimageclass').slideDown();
+         $('.coverarrowimageclass').slideUp();
+
+    }
+
+    setInterval(fadeintervalfunction, 100);
+
+})
