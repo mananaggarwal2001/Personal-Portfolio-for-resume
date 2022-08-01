@@ -1,0 +1,123 @@
+@media screen and (max-width: 1471px) {
+
+    .navbarcontainer{
+        flex-direction: column;
+    }
+    .main{
+        flex-direction: row;
+    }
+
+    #navbarList{
+        justify-content: left;
+        align-items: left;
+    }
+
+    #navbarList li{
+        margin-top: 15px;
+    }
+    .navbar{
+        flex-direction: row;
+        width: 100vw;
+        height: 100vh;
+        justify-content: left;
+        align-items: left;
+    }
+
+    #mainid{
+        flex-direction: column;
+    }
+    .profileimg{
+        display: none;
+    }
+
+    .container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-items: left;
+        margin-top: 0;
+        background-color: black;
+        z-index: 1000;
+
+    }
+
+    .listItem{
+        width:98vw;
+    }
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .profilenameimage {
+        width: 13vw;
+        align-items: left;
+        justify-content: left;
+        margin:0px;
+        margin-left:1.5em;
+        margin-bottom: 1em;
+        padding-top:1em;
+
+    }
+    .icons{
+        top: 1em ;
+        justify-content: left;
+        align-items: left;
+        height: 5vh;
+        right:1em;
+        margin:0px;
+        padding-top: 0.7em;
+    }
+    .coverpage{
+        width: 100vw;
+    }
+    .mainid{
+        width:100vw;
+    }
+    .coverpage::before{
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        background-size: cover;
+    }
+    .headingdetails{
+        width:100vw;
+    }
+
+    #About{
+        width: 100vw;
+    }
+    .resumecontainer{
+        width:100vw;
+    }
+
+    .coverarrowclass{
+        top:7.5em;
+    }
+    .aboutcontainer{
+        flex-direction: column;
+    }
+    .informationclass{
+        width: 80vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .detailsclass{
+        width:80vw;
+        flex-direction: column;
+    }
+    .tableclass{
+        width:100vw;
+    }
+    .informationParagraph{
+        align-items: left;
+        justify-content: left;
+        width:80vw;
+    }
+    .btn{
+        width:20vw;
+    }
+    .linkclass{
+        width:20vw;
+    }
+}

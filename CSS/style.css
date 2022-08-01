@@ -160,7 +160,7 @@
 .coverarrowclass{
     position: relative;
     top: 17.5em;
-    height: 100px;
+    height: 1em;
 
 }
 
@@ -721,6 +721,7 @@
 }
 .uparrowclassnavigationtotopclass:hover{
     background-color: rgba(104, 168, 8);
+
 }
 .hreflinkclass{
     display: flex;
@@ -733,7 +734,9 @@
     filter: invert();
 }
 
-
+.rotateanimationclass{
+    animation: mymove 5s;
+}
 .animationclass{
     transition: all 5s ease-in;
 }
