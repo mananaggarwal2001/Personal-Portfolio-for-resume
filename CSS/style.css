@@ -26,6 +26,10 @@
     color: white;
 }
 
+.hamclass,.crossclass{
+    display: none;
+}
+
 
 .profilenameimage {
     display: flex;

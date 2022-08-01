@@ -1,21 +1,25 @@
 @media screen and (max-width: 1471px) {
 
-    .navbarcontainer{
+    .navbarcontainer {
         flex-direction: column;
     }
-    .main{
+
+    .main {
         flex-direction: row;
     }
 
-    #navbarList{
+    #navbarList {
         justify-content: left;
         align-items: left;
+        padding-bottom: 15px;
     }
 
-    #navbarList li{
+    #navbarList li {
         margin-top: 15px;
+        border-bottom: 2px solid white;
     }
-    .navbar{
+
+    .navbar {
         flex-direction: row;
         width: 100vw;
         height: 100vh;
@@ -23,101 +27,225 @@
         align-items: left;
     }
 
-    #mainid{
+    #mainid {
         flex-direction: column;
     }
-    .profileimg{
+
+    .profileimg {
         display: none;
     }
 
-    .container{
+    .container {
         width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: left;
         justify-items: left;
         margin-top: 0;
-        background-color: black;
+        background-color: rgba(36, 36, 36, 0.3);
         z-index: 1000;
 
     }
 
-    .listItem{
-        width:98vw;
+    .listItem {
+        width: 96.5vw;
+        padding:0.5em 0px;
     }
-    .maincontainer{
+
+    .maincontainer {
         display: flex;
         flex-direction: column;
     }
+
     .profilenameimage {
-        width: 13vw;
+        width: 20vw;
         align-items: left;
         justify-content: left;
-        margin:0px;
-        margin-left:1.5em;
+        margin: 0px;
+        margin-left: 1.5em;
         margin-bottom: 1em;
-        padding-top:1em;
+        padding-top: 1em;
+        vertical-align: middle;
 
     }
-    .icons{
-        top: 1em ;
-        justify-content: left;
-        align-items: left;
+
+    .icons {
+        top: 1em;
+        justify-content: right;
+        align-items: right;
         height: 5vh;
-        right:1em;
-        margin:0px;
+        right: 1em;
+        margin: 0px;
         padding-top: 0.7em;
+        width:50vw;
     }
-    .coverpage{
+
+    .coverpage {
         width: 100vw;
     }
-    .mainid{
-        width:100vw;
+
+    .mainid {
+        width: 100vw;
     }
-    .coverpage::before{
+
+    .coverpage::before {
         width: 100vw;
         height: 100vh;
         box-sizing: border-box;
         background-size: cover;
     }
-    .headingdetails{
-        width:100vw;
-    }
 
-    #About{
+    .headingdetails {
         width: 100vw;
     }
-    .resumecontainer{
+
+    #About {
+        width: 100vw;
+    }
+
+    .resumecontainer {
+        width: 100vw;
+    }
+    .resumedetailssection{
+        flex-direction: column;
+        width:100vw;
+        height:400px;
+        overflow-y: auto;
+    }
+    .resumecolumnclass{
+        width:80vw;
+    }
+    .skillsectioncontainer{
         width:100vw;
     }
 
-    .coverarrowclass{
-        top:7.5em;
+    .firsthalfskillcontainer,.secondhalfskillcontainer{
+        width: 100vw;
     }
-    .aboutcontainer{
+
+    .skillcontainer{
+        flex-direction: column;
+        height:400px;
+        overflow-y:auto;
+    }
+
+    .resumedetailclass{
+        height:200px;
+        overflow-y: auto;
+    }
+
+    .coverarrowclass {
+        top: 7.5em;
+    }
+
+    .aboutcontainer {
         flex-direction: column;
     }
-    .informationclass{
+
+    .informationclass {
         width: 80vw;
         align-items: center;
         justify-content: center;
     }
-    .detailsclass{
-        width:80vw;
+
+    .detailsclass {
+        width: 80vw;
         flex-direction: column;
     }
-    .tableclass{
-        width:100vw;
+
+    .tableclass {
+        width: 82vw;
     }
-    .informationParagraph{
+
+    .informationParagraph {
         align-items: left;
         justify-content: left;
+        width: 80vw;
+    }
+
+    .btn {
+        width: 20vw;
+    }
+
+    .linkclass {
+        width: 20vw;
+    }
+
+    .resumecontainer {
+        width: 100vw;
+    }
+
+    .projectsections {
+        width: 100vw;
+    }
+
+    .projectcontainer {
+        width: 80vw;
+        flex-direction: column;
+        height:1000px;
+        overflow-y: auto;
+    }
+
+    .contactmesection {
+        width: 100vw;
+    }
+
+    .addressasndformsection {
+        flex-direction: column;
+        width: 100vw;
+        height:1000px;
+        overflow-y: auto;
+    }
+
+    .addresssection {
+        width: 100vw;
+    }
+
+    .formsection {
+        width: 100vw;
+    }
+
+    .contactmeform {
+        margin: 0px;
         width:80vw;
     }
-    .btn{
-        width:20vw;
+
+    .inputclass {
+        margin: 0px;
+        justify-content: left;
+        flex-direction: column;
+        width: 80vw;
     }
-    .linkclass{
-        width:20vw;
+
+    #name,
+    #email,
+    #phone {
+        margin: 1em 0px;
+        width:80vw;
+    }
+    #concern{
+        width:80vw;
+        margin:1em 0px;
+    }
+    .formclass{
+
+        position: relative;
+        width:95vw;
+        margin:0 auto;
+        margin-top: 2em;
+    }
+    .footersection{
+        position: relative;
+        width:100vw;
+        top:20em
+    }
+    .hamclass,.crossclass{
+        display: flex;
+        width:2em;
+        height:2em;
+    }
+
+    .hamimage,.crossimage{
+        width:40px;
     }
 }
