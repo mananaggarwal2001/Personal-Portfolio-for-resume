@@ -23,12 +23,12 @@ const contactme = document.getElementById('contactme');
 // for highlighting the while scroll event is occuring.
 const linkhomeitem = document.getElementById('homeid');
 const linkcontactitem = document.getElementById('contactmeid');
-const linkaboutitem= document.getElementById('aboutid');
-const linkprojectitem= document.getElementById('projectid');
-const linkresumeitem= document.getElementById('resumeid');
-const mainheight= document.getElementById('mainid');
-let totalheight= homesize.offsetHeight + aboutme.offsetHeight + resume.offsetHeight + project.offsetHeight + contactme.offsetHeight;
-let totalTopPosition= homesize.offsetTop + aboutme.offsetTop + resume.offsetTop + project.offsetTop + contactme.offsetTop;
+const linkaboutitem = document.getElementById('aboutid');
+const linkprojectitem = document.getElementById('projectid');
+const linkresumeitem = document.getElementById('resumeid');
+const mainheight = document.getElementById('mainid');
+let totalheight = homesize.offsetHeight + aboutme.offsetHeight + resume.offsetHeight + project.offsetHeight + contactme.offsetHeight;
+let totalTopPosition = homesize.offsetTop + aboutme.offsetTop + resume.offsetTop + project.offsetTop + contactme.offsetTop;
 
 
 
@@ -57,10 +57,37 @@ window.addEventListener('scroll', (e) => {
     }
 }, true);
 
-let windowheight= $(window);
+let windowheight = $(window);
 window.addEventListener('scroll', (e) => {
     console.log(window.scrollY);
     // console.log(mainheight.offsetWidth);
 
 }, true);
 
+
+
+
+// Hamclass funcitonality
+
+let cross = document.querySelector('.crossimage');
+let hamburger = document.querySelector('.hamimage');
+let hamclass = document.querySelector('.hamclass');
+let navcontainer = document.querySelector('.container');
+let headinglist = document.querySelector('.headingList');
+
+
+
+navcontainer.style.opacity = 0;
+cross.style.display='none';
+hamclass.addEventListener('click', () => {
+    navcontainer.classList.toggle('v-nav-resp');
+    if (navcontainer.classList.contains('v-nav-resp')) {
+        navcontainer.style.opacity = 0;
+        hamburger.style.display='flex';
+        cross.style.display='none';
+    } else {
+        hamburger.style.display='none';
+        cross.style.display='flex';
+        navcontainer.style.opacity = 1;
+    }
+});

@@ -11,22 +11,32 @@
     #navbarList {
         justify-content: left;
         align-items: left;
-        padding-bottom: 15px;
+        padding-bottom: 30px;
     }
 
     #navbarList li {
         margin-top: 15px;
         border-bottom: 2px solid white;
     }
+    .aboutcontainer{
+        height:1000px;
+        overflow-y: auto;
+    }
 
     .navbar {
         flex-direction: row;
         width: 100vw;
-        height: 100vh;
+        height: 60vh;
         justify-content: left;
         align-items: left;
+        z-index: 2000;
     }
 
+
+    .v-nav-resp{
+        position: absolute;
+        transform: translateY(-320px);
+    }
     #mainid {
         flex-direction: column;
     }
@@ -42,8 +52,11 @@
         align-items: left;
         justify-items: left;
         margin-top: 0;
-        background-color: rgba(36, 36, 36, 0.3);
-        z-index: 1000;
+        background-color: rgba(36, 36, 36, 0.8);
+        position: absolute;
+        top: 70px;
+        height:320px;
+        transition: all 0.7s ease-out;
 
     }
 
@@ -58,26 +71,30 @@
     }
 
     .profilenameimage {
-        width: 20vw;
+        width: 50vw;
         align-items: left;
         justify-content: left;
         margin: 0px;
         margin-left: 1.5em;
-        margin-bottom: 1em;
         padding-top: 1em;
         vertical-align: middle;
 
     }
+    .name{
+        display: block;
+        width:100%;
+    }
 
     .icons {
-        top: 1em;
-        justify-content: right;
-        align-items: right;
+        top: 0.3em;
+        justify-content: center;
+        align-items: center;
         height: 5vh;
         right: 1em;
         margin: 0px;
         padding-top: 0.7em;
-        width:50vw;
+        width:30vw;
+        margin-right:1em;
     }
 
     .coverpage {
@@ -113,7 +130,7 @@
         overflow-y: auto;
     }
     .resumecolumnclass{
-        width:80vw;
+        width:75.5vw;
     }
     .skillsectioncontainer{
         width:100vw;
@@ -237,15 +254,31 @@
     .footersection{
         position: relative;
         width:100vw;
-        top:20em
+        top:20em;
     }
-    .hamclass,.crossclass{
+    .hamclass{
         display: flex;
-        width:2em;
-        height:2em;
+        width:1em;
+        height:1em;
+        position:absolute;
+        right:60px;
+        top:25px;
+        cursor: pointer;
+        z-index: 100;
+
+    }
+
+    .hamimage{
+        filter:invert();
     }
 
     .hamimage,.crossimage{
-        width:40px;
+        position: absolute;
+        width:30px;
+        transition: all 2s ease-in-out;
+    }
+
+    .crossimage{
+        width:30px;
     }
 }
