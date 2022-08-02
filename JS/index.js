@@ -77,7 +77,7 @@ let headinglist = document.querySelector('.headingList');
 
 
 
-navcontainer.style.opacity = 0;
+// navcontainer.style.opacity = 0;
 cross.style.display='none';
 hamclass.addEventListener('click', () => {
     navcontainer.classList.toggle('v-nav-resp');

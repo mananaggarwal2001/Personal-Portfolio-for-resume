@@ -1,4 +1,4 @@
-@media screen and (max-width: 1471px) {
+@media screen and (max-width: 1080px) {
 
     .navbarcontainer {
         flex-direction: column;
@@ -18,8 +18,9 @@
         margin-top: 15px;
         border-bottom: 2px solid white;
     }
-    .aboutcontainer{
-        height:1000px;
+
+    .aboutcontainer {
+        height: 1000px;
         overflow-y: auto;
     }
 
@@ -33,10 +34,11 @@
     }
 
 
-    .v-nav-resp{
+    .v-nav-resp {
         position: absolute;
         transform: translateY(-320px);
     }
+
     #mainid {
         flex-direction: column;
     }
@@ -54,15 +56,16 @@
         margin-top: 0;
         background-color: rgba(36, 36, 36, 0.8);
         position: absolute;
-        top: 70px;
-        height:320px;
+        top: 5.2em;
+        height: 320px;
         transition: all 0.7s ease-out;
+        opacity: 0;
 
     }
 
     .listItem {
         width: 96.5vw;
-        padding:0.5em 0px;
+        padding: 0.5em 0px;
     }
 
     .maincontainer {
@@ -71,18 +74,20 @@
     }
 
     .profilenameimage {
-        width: 50vw;
+        width: 30vw;
         align-items: left;
         justify-content: left;
         margin: 0px;
         margin-left: 1.5em;
         padding-top: 1em;
         vertical-align: middle;
-
+        font-size: 10px;
     }
-    .name{
+
+    .name {
         display: block;
-        width:100%;
+        font-size:12px;
+        width: 100%;
     }
 
     .icons {
@@ -93,8 +98,8 @@
         right: 1em;
         margin: 0px;
         padding-top: 0.7em;
-        width:30vw;
-        margin-right:1em;
+        width: 30vw;
+        margin-right: 1em;
     }
 
     .coverpage {
@@ -123,31 +128,35 @@
     .resumecontainer {
         width: 100vw;
     }
-    .resumedetailssection{
+
+    .resumedetailssection {
         flex-direction: column;
-        width:100vw;
-        height:400px;
+        width: 100vw;
+        height: 400px;
         overflow-y: auto;
     }
-    .resumecolumnclass{
-        width:75.5vw;
-    }
-    .skillsectioncontainer{
-        width:100vw;
+
+    .resumecolumnclass {
+        width: 75.5vw;
     }
 
-    .firsthalfskillcontainer,.secondhalfskillcontainer{
+    .skillsectioncontainer {
         width: 100vw;
     }
 
-    .skillcontainer{
-        flex-direction: column;
-        height:400px;
-        overflow-y:auto;
+    .firsthalfskillcontainer,
+    .secondhalfskillcontainer {
+        width: 100vw;
     }
 
-    .resumedetailclass{
-        height:200px;
+    .skillcontainer {
+        flex-direction: column;
+        height: 400px;
+        overflow-y: auto;
+    }
+
+    .resumedetailclass {
+        height: 200px;
         overflow-y: auto;
     }
 
@@ -199,7 +208,7 @@
     .projectcontainer {
         width: 80vw;
         flex-direction: column;
-        height:1000px;
+        height: 1000px;
         overflow-y: auto;
     }
 
@@ -210,7 +219,8 @@
     .addressasndformsection {
         flex-direction: column;
         width: 100vw;
-        height:1000px;
+        height: 1000px;
+        margin:0px auto;
         overflow-y: auto;
     }
 
@@ -224,7 +234,7 @@
 
     .contactmeform {
         margin: 0px;
-        width:80vw;
+        width: 80vw;
     }
 
     .inputclass {
@@ -238,47 +248,113 @@
     #email,
     #phone {
         margin: 1em 0px;
-        width:80vw;
+        width: 80vw;
     }
-    #concern{
-        width:80vw;
-        margin:1em 0px;
+
+    #concern {
+        width: 80vw;
+        margin: 1em 0px;
     }
-    .formclass{
+
+    .formclass {
 
         position: relative;
-        width:95vw;
-        margin:0 auto;
+        width: 95vw;
+        margin: 0 auto;
         margin-top: 2em;
     }
-    .footersection{
+
+    .footersection {
         position: relative;
-        width:100vw;
-        top:20em;
+        width: 100vw;
+        top: 20em;
     }
-    .hamclass{
+
+    .hamclass {
         display: flex;
-        width:1em;
-        height:1em;
-        position:absolute;
-        right:60px;
-        top:25px;
+        width: 1em;
+        height: 1em;
+        position: absolute;
+        right: 60px;
+        top: 25px;
         cursor: pointer;
         z-index: 100;
 
     }
 
-    .hamimage{
-        filter:invert();
+    .hamimage {
+        filter: invert();
     }
 
-    .hamimage,.crossimage{
+    .hamimage,
+    .crossimage {
         position: absolute;
-        width:30px;
+        width: 30px;
         transition: all 2s ease-in-out;
     }
 
-    .crossimage{
-        width:30px;
+    .crossimage {
+        width: 30px;
     }
+}
+
+@media screen and (max-width: 414px) {
+    .profilenameimage{
+        width: 30vw;
+    }
+
+
+    .icons{
+
+        width: 50vw;
+        align-items: right;
+        justify-content: left;
+
+    }
+    .hamclass{
+        position: absolute;
+        right:50px;
+        width:0.5em;
+        height:0.5em;
+        top: 18px;
+    }
+    .container{
+        top:3.2em;
+    }
+    .crossimage{
+        width:1.5em;
+        height:1.5em;
+    }
+    .container li{
+        font-size: 0.8em;
+    }
+
+    /* Portfolio Section */
+    #home{
+        font-size: 0.75em;
+    }
+
+    .headingcontainer{
+        font-size: 0.8em;
+    }
+
+    .information{
+        font-size: 1.8em;
+    }
+    .tableclass{
+        font-size: 1em;
+    }
+
+    .btn{
+        width:10em;
+    }
+    .resumecolumnclass{
+        margin:12px auto;
+        font-size: 0.8em;
+
+    }
+    .navbarcontainer{
+        overflow-x: hidden;
+    }
+
 }
