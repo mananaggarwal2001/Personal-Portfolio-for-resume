@@ -6,15 +6,12 @@
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
-    box-sizing: border-box;
 }
 
 .navbarcontainer {
     display: flex;
+    height: 100vh;
     width: 100vw;
-    height: 100vh ;
-    left: 0px;
-    overflow-y: auto;
 }
 
 
@@ -24,6 +21,8 @@
     height: 100vh;
     background-color: rgb(19, 19, 19);
     color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .hamclass,
@@ -249,13 +248,11 @@
 
 .aboutcontainer {
     display: flex;
-    height: 100vh;
 }
 
 .information {
     padding: 12px;
     font-size: 2.5em;
-
 
 }
 
@@ -288,8 +285,6 @@
 
 /* Download CV button decoration */
 .btn {
-    position: relative;
-    top:40px;
     font-size: 1em;
     padding: 16px;
     cursor: pointer;
@@ -313,7 +308,7 @@
 
 /* table class decoration in the About section */
 .tableclass {
-    height: 25vh;
+    height: 250px;
     width: 20vw;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
@@ -336,12 +331,11 @@
 }
 
 .linkclass {
-    width: 177px;
-    margin: 0px auto;
+    margin: 100px auto;
 }
 
 .listitem {
-    margin: 1.3em 0px;
+    margin: 25px 0px;
 }
 
 .listheadingclass {
@@ -358,7 +352,7 @@
 /* Resume section decoration */
 .resumecontainer {
     width: 85vw;
-    height: 100vh;
+    margin-top:50px;
 }
 
 .resumedetailssection {
@@ -368,8 +362,8 @@
 
 .resumecolumnclass {
     font-family: 'Roboto', sans-serif;
-    margin: 2em;
-    padding: 1em;
+    margin: 50px 25px;
+    padding: 20px;
     border: 2px solid rgb(207, 207, 207);
     border-radius: 15px;
 }
@@ -381,7 +375,7 @@
 }
 
 .resumeheading {
-    margin: 0px 1.35em;
+    margin: 0px 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 1.6em;
@@ -390,12 +384,11 @@
 .resumedetailheading,
 .resumedetailsubheading,
 .resumedetail {
-    margin: 0.5em 0px;
     font-family: 'Roboto', sans-serif;
 }
 
 .resumedetailsubheading {
-    margin-bottom: 1.5em;
+    margin-bottom: 30px;
     font-weight: bold;
 }
 
@@ -466,7 +459,7 @@
 }
 
 .progressclass {
-    margin: 1.2em 2.20em;
+    margin: 20px 30px
 }
 
 .eightypercent {
@@ -477,7 +470,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0.6em 0px;
+    margin: 10px 0px;
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -490,7 +483,7 @@
     justify-content: center;
     background-color: grey;
     text-decoration: none;
-    margin-top: 1.9em;
+    margin-top: 20px;
     width: 14em;
 }
 
@@ -502,7 +495,7 @@
 
 .downloadiconclass {
     margin: 0px;
-    margin-left: 0.5em;
+    margin-left: 12px;
     text-decoration: none;
 }
 
@@ -524,8 +517,7 @@
 
 .projectsections {
     width: 85vw;
-    height: 100vh;
-    margin: 28em 0px;
+    margin: 140px 0px;
     position: relative;
     display: block;
     top: 1px;
@@ -534,12 +526,12 @@
 .projectcontainer {
     display: flex;
     width: 80vw;
-    padding: 0px 3em;
+    padding: 0px 30px;
 }
 
 .projectaboutsection {
     margin: 0px auto;
-    margin-top: 2.8vh;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -554,7 +546,7 @@
 }
 
 .linkitem {
-    margin: 0px 0.5em;
+    margin: 0px 20px;
     text-decoration: none;
     color: black;
     font-family: 'Roboto', sans-serif;
@@ -568,7 +560,6 @@
 
 /* Decorating the contact me section */
 .contactmesection {
-    height: 100vh;
     width: 85vw;
     display: flex;
     flex-direction: column;
@@ -587,7 +578,7 @@
 }
 
 .contactmedivclass {
-    margin-top: 1vh;
+    margin-top: 10px;
 }
 
 .addressasndformsection {
@@ -596,20 +587,20 @@
 }
 
 .contactmeheadingclass {
-    margin-top: 4vh;
+    margin-top: 0px;
 }
 
 .addressheading {
-    margin-bottom: 1em;
+    margin-bottom: 20px;
 }
 
 .addressdetaileditclass {
-    margin: 0px 2.2em;
+    margin: 0px 30px;
 }
 
 .addressitem {
     line-height: 1.8em;
-    margin-bottom: 1.5em;
+    margin-bottom: 10px;
     font-size: 1.1em;
     font-family: 'Roboto', sans-serif;
 }
@@ -627,22 +618,22 @@
 
 .socialmediaconnecticonclass {
     display: flex;
-    margin: 0px 2.2em;
+    margin: 0px auto;
 }
 
 .socialmediaconnecticonitem {
-    margin-right: 1.5em;
+    margin-right: 55px;
     padding-right: 0.5em;
 }
 
 .formclass {
-    margin: 0px 5em;
+    margin: 0px 100px;
     display: flex;
     flex-direction: column;
 }
 
 .inputclass {
-    margin: 1.5rem 0px;
+    margin: 20px 0px;
     display: flex;
     justify-content: center;
 }
@@ -651,16 +642,16 @@
 #email,
 #phone {
     width: 15.5vw;
-    margin-right: 2em;
-    height: 5vh;
+    margin-right: 20px;
+    height: 50px;
     font-family: 'Montserrat', sans-serif;
-    padding: 0px 1em;
+    padding: 0px 10px;
     font-size: 1em;
 }
 
 #concern {
     font-family: 'Montserrat', sans-serif;
-    padding: 0px 1em;
+    padding: 0px 10px;
     resize: none;
     width: 48.5vw;
     font-size: 1em;
@@ -668,7 +659,7 @@
 }
 
 .formsubmitbutton {
-    margin-top: 2rem;
+    margin-top: 50px;
     height: auto;
     background-color: white;
     color: green;
