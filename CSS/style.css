@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 .navbarcontainer {
@@ -140,8 +141,8 @@
 .coverpage::before {
     content: "";
     position: absolute;
-    height: 100vh;
     width: 85vw;
+    height: 100vh;
     background: url('../Images/coder.jpg');
     background-position: center;
     background-size: cover;
@@ -165,8 +166,7 @@
 
 .coverarrowclass {
     position: relative;
-    top: 30vh;
-    height: 1em;
+    top: 200px;
 
 }
 
@@ -213,13 +213,12 @@
 /* About Section CSS Decoration */
 
 #About {
-    height: 100vh;
     width: 60vw;
 
 }
 
 .headingcontainer {
-    margin: 2.3rem 0px;
+    margin: 100px 0px;
 }
 
 .headingdecorationclass {
