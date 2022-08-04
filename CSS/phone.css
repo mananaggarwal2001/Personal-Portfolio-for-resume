@@ -146,16 +146,23 @@
         padding: 0;
     }
     .resumelinkclass{
-        width: 236px;
+        width: 222px;
     }
 
 
     /* Project Section Decoration */
     #Projects{
         width:100vw;
+        margin-top: 0px;
+        padding-top: 0px;
     }
     .projectcontainer{
         flex-direction: column;
+    }
+
+    .projectheading{
+        margin:0px;
+        padding:0px;
     }
 
     .firstprojectsection,.secondprojectsection{
@@ -171,9 +178,19 @@
         width:100vw;
         margin:0px;
     }
+    .btn{
+        margin:0px;
+    }
     .addressasndformsection{
         flex-direction: column;
         margin:0px;
+    }
+    .formsubmitbutton{
+        margin:20px auto;
+    }
+    .socialmediaconnecticonitem{
+        margin:0px 10px;
+        margin-bottom: 50px;
     }
     .addresssection{
         width:80vw;
