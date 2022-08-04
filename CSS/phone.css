@@ -322,6 +322,10 @@
     }
     .icons{
         width:40vw;
+        margin-right: 12px;
+    }
+    .hamclass{
+        right: 50px;
     }
     .name{
         font-size: 0.2em;
