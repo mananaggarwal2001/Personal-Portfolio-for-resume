@@ -1,4 +1,6 @@
 @media screen and (max-width: 1550px) {
+
+
     .navbar{
         flex-direction: row;
         position: absolute;
@@ -119,8 +121,9 @@
 
     .resumecolumnclass{
         margin:0px;
-        margin:10px 0px;
-        width:90vw;
+        margin:30px auto;
+        margin-left:40px;
+        width:80vw;
     }
     .resumeheading{
         display: flex;
@@ -158,9 +161,10 @@
     .firstprojectsection,.secondprojectsection{
         width:40vw;
         margin:0px;
+
     }
     .resumeprojectcolumn{
-        width:80vw;
+        width:90vw;
     }
     /* Contactme Section */
     .contactmesection{
@@ -175,7 +179,7 @@
         width:80vw;
     }
     #contactme{
-        width:100vw;
+        width:80vw;
     }
     .formclass{
         margin:0px;
@@ -192,10 +196,11 @@
         margin:0px 10px;
     }
     .formheadingclass{
-        display:block;
+        display:flex;
         justify-content: center;
         align-items: center;
         margin:0px 10px;
+        margin-bottom: 25px;
     }
     .inputclass{
         margin:0px;
@@ -204,6 +209,7 @@
     }
     #name,#email,#phone{
         width:80vw;
+        margin-bottom: 20px;
     }
     #concern{
         width:80vw;
@@ -212,16 +218,26 @@
         width:100vw;
     }
     .addressheading{
-        width:10vw;
+        width:80vw;
     }
     .formsection{
         margin:0px;
         width:100vw;
+        margin-top:50px;
+        justify-content: center;
+        align-items: center;
     }
     .footersection{
         width:100vw;
     }
     .main{
         margin:0px;
+    }
+    .socialmediaconnecticonclass{
+        display: flex;
+        width:81vw;
+        align-items: center;
+        justify-content: center;
+
     }
 }
