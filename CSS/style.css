@@ -74,6 +74,7 @@
 
 }
 
+
 #navbarList a {
     text-decoration: none;
     color: white;
@@ -207,7 +208,7 @@
     display: flex;
     overflow-y: auto;
     flex-direction: column;
-    height:100vh;
+    height: 100vh;
 }
 
 /* About Section CSS Decoration */
@@ -331,6 +332,7 @@
 
 .linkclass {
     margin: 100px auto;
+    border-radius: 100px;
 }
 
 .listitem {
@@ -351,7 +353,7 @@
 /* Resume section decoration */
 .resumecontainer {
     width: 85vw;
-    margin-top:50px;
+    margin-top: 50px;
 }
 
 .resumedetailssection {
@@ -596,6 +598,7 @@
 .addressdetaileditclass {
     margin: 0px 30px;
 }
+
 
 .addressitem {
     line-height: 1.8em;

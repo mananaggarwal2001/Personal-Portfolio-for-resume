@@ -1,3 +1,227 @@
 @media screen and (max-width: 1550px) {
-    
+    .navbar{
+        flex-direction: row;
+        position: absolute;
+        width:100vw;
+        height:80px;
+        vertical-align: middle;
+        overflow:visible;
+        z-index: 3000;
+    }
+    .profilenameimage{
+        width:50vw;
+        position:relative;
+        bottom:20px;
+    }
+    .hamclass{
+        display: block;
+        position: absolute;
+        right:100px;
+        top: 34px;
+    }
+    .hamimage,.crossimage{
+        position: absolute;
+        width:25px;
+    }
+    .profileimg{
+        display: none;
+    }
+    .name{
+        display: block;
+        width:100%;
+    }
+    .v-nav-resp{
+        transform: translateY(-500px);
+    }
+
+    .container{
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(58, 58, 58, 0.8);
+        top:-70px;
+        height: 340px;
+        width:100vw;
+        z-index: 1;
+        opacity: 0;
+        transition: all 1s ease-in-out;
+    }
+    #navbarList,.headingList{
+        display: block;
+        width:100vw;
+        align-items: left;
+        justify-content: left;
+        padding:0px 50px;
+
+    }
+
+    .listItem{
+        width:auto;
+        border-bottom: 2px solid white;
+        padding-bottom: 3px;
+    }
+
+    .icons{
+        position: absolute;
+        right:100px;
+        top:40px;
+        width:auto;
+        padding:0px 30px;
+    }
+
+    /* coverpageDivclass */
+    .coverpage{
+        width:100vw;
+    }
+    .coverpage::before{
+        width:100vw;
+    }
+    .headingdetails{
+        width:100vw;
+        font-size: 15px;
+    }
+    .coverarrowclass{
+        position: relative;
+        top:100px;
+    }
+
+    /* Know more about me section */
+    .aboutcontainer{
+        flex-direction: column;
+        width:100vw;
+    }
+    .informationclass{
+        width:100vw;
+    }
+    .detailsclass{
+        width:100vw;
+        padding:0px 20px;
+    }
+    .tableclass{
+        width:90vw;
+
+    }
+    .linkclass{
+        margin:100px auto;
+        width: 176px;
+        border-radius: 100px;
+    }
+
+    /* resume Section responsive decoration */
+    .resumecontainer{
+        width:100vw;
+        margin:0px;
+    }
+
+    .resumedetailssection{
+        flex-direction: column;
+        width:100vw;
+    }
+
+    .resumecolumnclass{
+        margin:0px;
+        margin:10px 0px;
+        width:90vw;
+    }
+    .resumeheading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:10px 0px;
+        font-size: 1.8em;
+        width:100vw;
+        margin:0px;
+    }
+    .skillsectioncontainer{
+        width:100vw;
+        flex-direction: column;
+    }
+    .skillcontainer{
+        flex-direction: column;
+    }
+    .secondhalfskillcontainer{
+        margin: 0;
+        padding: 0;
+    }
+    .resumelinkclass{
+        width: 236px;
+    }
+
+
+    /* Project Section Decoration */
+    #Projects{
+        width:100vw;
+    }
+    .projectcontainer{
+        flex-direction: column;
+    }
+
+    .firstprojectsection,.secondprojectsection{
+        width:40vw;
+        margin:0px;
+    }
+    .resumeprojectcolumn{
+        width:80vw;
+    }
+    /* Contactme Section */
+    .contactmesection{
+        width:100vw;
+        margin:0px;
+    }
+    .addressasndformsection{
+        flex-direction: column;
+        margin:0px;
+    }
+    .addresssection{
+        width:80vw;
+    }
+    #contactme{
+        width:100vw;
+    }
+    .formclass{
+        margin:0px;
+        width:80vw;
+
+    }
+    .addressdetaileditclass{
+        margin:0px;
+    }
+
+    /* Form class */
+    .formclass{
+        flex-direction: column;
+        margin:0px 10px;
+    }
+    .formheadingclass{
+        display:block;
+        justify-content: center;
+        align-items: center;
+        margin:0px 10px;
+    }
+    .inputclass{
+        margin:0px;
+        flex-direction: column;
+        width:80vw;
+    }
+    #name,#email,#phone{
+        width:80vw;
+    }
+    #concern{
+        width:80vw;
+    }
+    .contactmedivclass{
+        width:100vw;
+    }
+    .addressheading{
+        width:10vw;
+    }
+    .formsection{
+        margin:0px;
+        width:100vw;
+    }
+    .footersection{
+        width:100vw;
+    }
+    .main{
+        margin:0px;
+    }
 }
