@@ -259,6 +259,77 @@
     }
 }
 
-@media screen and (max-width: 596px) {
-    
+@media screen and (max-width: 626px) {
+    .profilenameimage{
+        font-size: 12px;
+        vertical-align: middle;
+        top:1px;
+        width:30vw;
+    }
+
+    .coverpage{
+        font-size: 12px;
+    }
+    .headingdetails{
+        font-size: 10px;
+    }
+    .coverarrowclass{
+        top:230px;
+    }
+    .headingList{
+        font-size: 0.9rem;
+    }
+    /* Know More section / personal Details Sections */
+    .aboutheading{
+        font-size: 1.9rem;
+        margin-top:0px;
+
+    }
+    .headingcontainer{
+        margin-top:0px;
+    }
+    .information{
+        font-size: 1.6rem;
+        align-self: center;
+        justify-content: center;
+    }
+    .footersection{
+        font-size: 1.2rem;
+    }
+
+    /* resume section */
+    .resumecontainer{
+        margin:0px;
+    }
+    .resumeheading{
+        font-size: 1.5em;
+    }
+    /* Projects */
+    .resumedetail{
+        font-size: 0.9em;
+    }
+    .icons{
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .profilenameimage{
+        width:20vw;
+    }
+    .icons{
+        width:40vw;
+    }
+    .name{
+        font-size: 1em;
+    }
+    .resumecolumnclass{
+        padding:0px 3px;
+        margin-left: 0px;
+    }
+    .firstprojectsection,.secondprojectsection{
+        margin:0px;
+        padding:0px;
+    }
 }
