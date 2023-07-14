@@ -1,264 +1,310 @@
 @media screen and (max-width: 1100px) {
 
-#myProgress{
-    width:inherit;
-}
-    .navbar{
+    #myProgress {
+        width: inherit;
+    }
+
+    .navbar {
         flex-direction: row;
         position: absolute;
-        width:100vw;
-        height:80px;
+        width: 100vw;
+        height: 80px;
         vertical-align: middle;
-        overflow:visible;
+        overflow: visible;
         z-index: 3000;
     }
-    .profilenameimage{
-        width:30vw;
-        position:relative;
-        bottom:20px;
+
+    .profilenameimage {
+        width: 30vw;
+        position: relative;
+        bottom: 20px;
     }
-    .hamclass{
+
+    .hamclass {
         display: block;
         position: absolute;
-        right:100px;
+        right: 100px;
         top: 34px;
     }
-    .hamimage,.crossimage{
+
+    .hamimage,
+    .crossimage {
         position: absolute;
-        width:25px;
+        width: 25px;
     }
-    .profileimg{
+
+    .profileimg {
         display: none;
     }
-    .name{
+
+    .name {
         display: block;
-        width:100%;
+        width: 100%;
     }
-    .v-nav-resp{
+
+    .v-nav-resp {
         transform: translateY(-500px);
     }
 
-    .container{
+    .container {
         flex-direction: column;
         position: absolute;
         background-color: rgba(58, 58, 58, 0.8);
-        top:-70px;
+        top: -70px;
         height: 340px;
-        width:100vw;
+        width: 100vw;
         z-index: 1;
         opacity: 0;
         transition: all 1s ease-in-out;
     }
-    #navbarList,.headingList{
+
+    #navbarList,
+    .headingList {
         display: block;
-        width:100vw;
+        width: 100vw;
         align-items: left;
         justify-content: left;
-        padding:0px 50px;
+        padding: 0px 50px;
 
     }
 
-    .listItem{
-        width:auto;
+    .listItem {
+        width: auto;
         border-bottom: 2px solid white;
         padding-bottom: 3px;
     }
 
-    .icons{
+    .icons {
         position: absolute;
-        right:100px;
-        top:40px;
-        width:40vw;
-        padding:0px auto;
+        right: 100px;
+        top: 40px;
+        width: 40vw;
+        padding: 0px auto;
     }
 
     /* coverpageDivclass */
-    .coverpage{
-        width:100vw;
+    .coverpage {
+        width: 100vw;
     }
-    .coverpage::before{
-        width:100vw;
+
+    .coverpage::before {
+        width: 100vw;
     }
-    .headingdetails{
-        width:100vw;
+
+    .headingdetails {
+        width: 100vw;
         font-size: 15px;
     }
-    .coverarrowclass{
+
+    .coverarrowclass {
         position: relative;
-        top:100px;
+        top: 100px;
     }
 
     /* Know more about me section */
-    .aboutcontainer{
+    .aboutcontainer {
         flex-direction: column;
-        width:90vw;
+        width: 90vw;
     }
-    .informationclass{
-        width:80vw;
-        margin:auto;
+
+    .informationclass {
+        width: 80vw;
+        margin: auto;
     }
-    .detailsclass{
-        width:80vw;
+
+    .detailsclass {
+        width: 80vw;
         padding: 0 18px;
-        margin:auto;
+        margin: auto;
     }
-    .tableclass{
-        width:inherit;
+
+    .tableclass {
+        width: inherit;
 
     }
-    .linkclass{
-        margin:100px auto;
+
+    .linkclass {
+        margin: 100px auto;
         width: 176px;
         border-radius: 100px;
     }
 
     /* resume Section responsive decoration */
-    .resumecontainer{
-        width:100vw;
-        margin:0px;
+    .resumecontainer {
+        width: 100vw;
+        margin: 0px;
     }
 
-    .resumedetailssection{
+    .resumedetailssection {
         flex-direction: column;
-        width:100vw;
+        width: 100vw;
     }
 
-    .resumedetailsclass{
-        width:inherit;
+    .resumedetailsclass {
+        width: inherit;
     }
 
-    .resumecolumnclass{
-        margin:15px auto;
-        width:90vw;
+    .resumecolumnclass {
+        margin: 15px auto;
+        width: 90vw;
     }
-    .resumeheading{
+
+    .resumeheading {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding:10px 0px;
+        padding: 10px 0px;
         font-size: 1.8em;
-        width:100vw;
-        margin:0px;
+        width: 100vw;
+        margin: 0px;
     }
-    .skillsectioncontainer{
-        width:100vw;
+
+    .skillsectioncontainer {
+        width: 100vw;
         flex-direction: column;
     }
-    .skillcontainer{
+
+    .skillcontainer {
         flex-direction: column;
     }
-    .secondhalfskillcontainer{
+
+    .secondhalfskillcontainer {
         margin: 0;
         padding: 0;
     }
-    .resumelinkclass{
+
+    .resumelinkclass {
         width: 222px;
     }
 
 
     /* Project Section Decoration */
-    #Projects{
-        width:100vw;
+    #Projects {
+        width: 100vw;
         margin-top: 0px;
         padding-top: 0px;
     }
-    .projectcontainer{
+
+    .projectcontainer {
         flex-direction: column;
     }
 
-    .projectheading{
-        margin:0px;
-        padding:0px;
+    .projectheading {
+        margin: 0px;
+        padding: 0px;
     }
 
-    .firstprojectsection,.secondprojectsection{
-        width:70vw;
-        margin:auto;
+    .firstprojectsection,
+    .secondprojectsection {
+        width: 70vw;
+        margin: auto;
 
     }
-    .resumeprojectcolumn{
-        width:90vw;
+
+    .resumeprojectcolumn {
+        width: 90vw;
     }
+
     /* Contactme Section */
-    .contactmesection{
-        width:100vw;
-        margin:0px;
+    .contactmesection {
+        width: 100vw;
+        margin: 0px;
     }
-    .btn{
-        margin:0px;
+
+    .btn {
+        margin: 0px;
     }
-    .addressasndformsection{
+
+    .addressasndformsection {
         flex-direction: column;
-        margin:0px;
+        margin: 0px;
     }
-    .formsubmitbutton{
-        margin:20px auto;
+
+    .formsubmitbutton {
+        margin: 20px auto;
     }
-    .socialmediaconnecticonitem{
-        margin:0px 10px;
+
+    .socialmediaconnecticonitem {
+        margin: 0px 10px;
         margin-bottom: 50px;
     }
-    .addresssection{
-        width:80vw;
+
+    .addresssection {
+        width: 80vw;
     }
-    #contactme{
-        width:80vw;
+
+    #contactme {
+        width: 80vw;
     }
-    .formclass{
-        margin:0px;
-        width:80vw;
+
+    .formclass {
+        margin: 0px;
+        width: 80vw;
 
     }
-    .addressdetaileditclass{
-        margin:0px;
+
+    .addressdetaileditclass {
+        margin: 0px;
     }
 
     /* Form class */
-    .formclass{
+    .formclass {
         flex-direction: column;
-        margin:0px 10px;
+        margin: 0px 10px;
     }
-    .formheadingclass{
-        display:flex;
+
+    .formheadingclass {
+        display: flex;
         justify-content: center;
         align-items: center;
-        margin:0px 10px;
+        margin: 0px 10px;
         margin-bottom: 25px;
     }
-    .inputclass{
-        margin:0px;
+
+    .inputclass {
+        margin: 0px;
         flex-direction: column;
-        width:80vw;
+        width: 80vw;
     }
-    #name,#email,#phone{
-        width:80vw;
+
+    #name,
+    #email,
+    #phone {
+        width: 80vw;
         margin-bottom: 20px;
     }
-    #concern{
-        width:80vw;
+
+    #concern {
+        width: 80vw;
     }
-    .contactmedivclass{
-        width:100vw;
+
+    .contactmedivclass {
+        width: 100vw;
     }
-    .addressheading{
-        width:80vw;
+
+    .addressheading {
+        width: 80vw;
     }
-    .formsection{
-        margin:0px;
-        width:100vw;
-        margin-top:50px;
+
+    .formsection {
+        margin: 0px;
+        width: 100vw;
+        margin-top: 50px;
         justify-content: center;
         align-items: center;
     }
-    .footersection{
-        width:100vw;
+
+    .footersection {
+        width: 100vw;
     }
-    .main{
-        margin:0px;
+
+    .main {
+        margin: 0px;
     }
-    .socialmediaconnecticonclass{
+
+    .socialmediaconnecticonclass {
         display: flex;
-        width:81vw;
+        width: 81vw;
         align-items: center;
         justify-content: center;
 
@@ -266,96 +312,114 @@
 }
 
 @media screen and (max-width: 626px) {
-    .profilenameimage{
+    .profilenameimage {
         font-size: 12px;
         vertical-align: middle;
-        top:1px;
-        width:30vw;
+        top: 1px;
+        width: 30vw;
     }
 
-    .coverpage{
+    .coverpage {
         font-size: 12px;
     }
-    .headingdetails{
+
+    .headingdetails {
         font-size: 10px;
     }
-    .coverarrowclass{
-        top:230px;
+
+    .coverarrowclass {
+        top: 230px;
     }
-    .headingList{
+
+    .headingList {
         font-size: 0.9rem;
     }
+
     /* Know More section / personal Details Sections */
-    .aboutheading{
+    .aboutheading {
         font-size: 1.9rem;
-        margin-top:0px;
+        margin-top: 0px;
 
     }
-    .headingcontainer{
-        margin-top:0px;
+
+    .headingcontainer {
+        margin-top: 0px;
     }
-    .information{
+
+    .information {
         font-size: 1.6rem;
         align-self: center;
         justify-content: center;
     }
-    .footersection{
+
+    .footersection {
         font-size: 1.2rem;
     }
 
     /* resume section */
-    .resumecontainer{
-        margin:0px;
+    .resumecontainer {
+        margin: 0px;
     }
-    .resumeheading{
+
+    .resumeheading {
         font-size: 1.5em;
     }
+
     /* Projects */
-    .resumedetail{
+    .resumedetail {
         font-size: 0.9em;
     }
-    .icons{
+
+    .icons {
         margin-right: 20px;
     }
 
 }
 
 @media screen and (max-width: 600px) {
-    .profilenameimage{
-        width:20vw;
+    .profilenameimage {
+        width: 20vw;
         vertical-align: auto;
-        top:2px;
+        top: 2px;
     }
-    .icons{
-        width:40vw;
+
+    .icons {
+        width: 40vw;
         margin-right: 12px;
     }
-    .hamclass{
+
+    .hamclass {
         right: 50px;
     }
-    .name{
+
+    .name {
         font-size: 0.2em;
-        top:2px;
+        top: 2px;
         vertical-align: auto;
     }
-    .resumecolumnclass{
-        padding:0px 3px;
-        margin-left: 0px;
+
+    .resumecolumnclass {
+        padding: 0px 3px;
+        margin: 15px auto;
     }
-    .firstprojectsection,.secondprojectsection{
-        margin:auto;
-        padding:0px;
+
+    .firstprojectsection,
+    .secondprojectsection {
+        margin: auto;
+        padding: 0px;
     }
-    .footersection{
+
+    .footersection {
         font-size: 0.9em;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .icons{
-        width:41.5vw;
+    .icons {
+        width: 41.5vw;
     }
-    .descriptionclass{
+
+    .descriptionclass {
         font-size: 2.3rem;
     }
 }
