@@ -1,6 +1,6 @@
 AOS.init();
 let typed = new Typed('.wordchangingclass', {
-    strings: ["Manan Aggarwal.", "a Content Creater.", "a Coder.", "a Writer.", "a Guider.", "a Freelancer."],
+    strings: ["Manan Aggarwal.", " ", "a Content Creater.", " ", "a Coder.", " ", "a Writer.", " ", "a Guider.", " ", "a Freelancer."],
     typeSpeed: 20,
     backSpeed: 20,
     loop: true,
@@ -78,16 +78,16 @@ let headinglist = document.querySelector('.headingList');
 
 
 // navcontainer.style.opacity = 0;
-cross.style.display='none';
+cross.style.display = 'none';
 hamclass.addEventListener('click', () => {
     navcontainer.classList.toggle('v-nav-resp');
     if (navcontainer.classList.contains('v-nav-resp')) {
         navcontainer.style.opacity = 0;
-        hamburger.style.display='flex';
-        cross.style.display='none';
+        hamburger.style.display = 'flex';
+        cross.style.display = 'none';
     } else {
-        hamburger.style.display='none';
-        cross.style.display='flex';
+        hamburger.style.display = 'none';
+        cross.style.display = 'flex';
         navcontainer.style.opacity = 1;
     }
 });
