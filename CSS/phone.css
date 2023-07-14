@@ -103,7 +103,7 @@
         margin:auto;
     }
     .tableclass{
-        width:90vw;
+        width:inherit;
 
     }
     .linkclass{
@@ -158,7 +158,7 @@
 
     /* Project Section Decoration */
     #Projects{
-        width:75vw;
+        width:100vw;
         margin-top: 0px;
         padding-top: 0px;
     }
