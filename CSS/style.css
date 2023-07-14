@@ -146,6 +146,7 @@
     height: 100vh;
     background: url('../Images/coder.jpg');
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -242,6 +243,7 @@
 }
 
 .aboutheading {
+    text-align: center;
     font-size: 2.8em;
     font-family: 'Roboto', sans-serif;
 }
