@@ -14,6 +14,10 @@
         z-index: 3000;
     }
 
+    .descriptionclass {
+        font-size: 9.3vw;
+    }
+
     .profilenameimage {
         width: 30vw;
         position: relative;
@@ -97,8 +101,7 @@
     }
 
     .coverarrowclass {
-        position: relative;
-        top: 100px;
+        position: sticky;
     }
 
     /* Know more about me section */
