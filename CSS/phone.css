@@ -13,6 +13,9 @@
         overflow: visible;
         z-index: 3000;
     }
+    .addressclass{
+        text-align: center;
+    }
 
     .descriptionclass {
         font-size: 9.3vw;
@@ -328,7 +331,7 @@
         font-size: 10px;
     }
 
-   
+
 
     .headingList {
         font-size: 0.9rem;
