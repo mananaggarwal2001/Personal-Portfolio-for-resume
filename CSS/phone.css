@@ -13,12 +13,18 @@
         overflow: visible;
         z-index: 3000;
     }
-    .addressclass{
+
+    .addressclass {
+        text-align: center;
+    }
+
+    .welcomeheading {
         text-align: center;
     }
 
     .descriptionclass {
         font-size: 9.3vw;
+        text-align: center;
     }
 
     .profilenameimage {
@@ -323,6 +329,17 @@
         width: 30vw;
     }
 
+    .addressclass {
+        text-align: center;
+    }
+
+    .welcomeheading {
+        text-align: center;
+    }
+    .descriptionclass{
+        text-align: center;
+    }
+
     .coverpage {
         font-size: 12px;
     }
@@ -383,6 +400,18 @@
         width: 20vw;
         vertical-align: auto;
         top: 2px;
+    }
+
+    .addressclass {
+        text-align: center;
+    }
+
+    .welcomeheading {
+        text-align: center;
+    }
+
+    .descriptionclass {
+        text-align: center;
     }
 
     .icons {
